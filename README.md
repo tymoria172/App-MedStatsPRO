@@ -9,7 +9,7 @@
 </p>
 
 ## 🚀 Visão Geral
-Aplicativo para gestão de clínicas e profissionais de saúde, com agendamentos, prontuários eletrônicos e autenticação segura.
+Aplicativo de estatísticas medicas.
 
 ## 📋 Pré-requisitos
 - Node.js 18+
