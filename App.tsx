@@ -1,20 +1,19 @@
+import React from 'react';
+import { AuthProvider } from './contexts/authContext';
+import { Routes } from './routes';
+import { ToastProvider } from './contexts/toastContext';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar backgroundColor="#e63946" />
+      <ToastProvider>
+        <AuthProvider>
+          <Routes />
+        </AuthProvider>
+      </ToastProvider>
+    </>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
