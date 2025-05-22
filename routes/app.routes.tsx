@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../screens/main/index';
 import { Header } from '../components/global/header';
 import { useAuth } from '../contexts/authContext';
-
+import React from 'react';
 
 const Stack = createNativeStackNavigator<AppRoutes>();
 

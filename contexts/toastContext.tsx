@@ -1,6 +1,7 @@
 import { createContext, useContext, useState } from 'react';
 import { View, Text, Animated, StyleSheet, Dimensions } from 'react-native';
 import { WarningCircle, CheckCircle } from 'phosphor-react-native';
+import React from 'react';
 
 interface ToastContextType {
   showToast: (message: string, type?: 'success' | 'error') => void;

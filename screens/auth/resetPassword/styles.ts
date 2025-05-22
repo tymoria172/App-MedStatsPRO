@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    
   },
   containerinfo: {
     flex: 1,
@@ -65,7 +66,7 @@ export const styles = StyleSheet.create({
     color: '#3aa958',
   },
   button: {
-    width: '80%',
+    width: '100%',
     backgroundColor: theme.colors.primary,
     paddingVertical: 14,
     borderRadius: 6,

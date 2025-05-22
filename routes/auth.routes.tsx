@@ -4,6 +4,7 @@ import ForgotPassword from '../screens/auth/forgotPassword';
 import ResetPassword from '../screens/auth/resetPassword';
 import { Header } from '../components/global/header';
 import { useAuth } from '../contexts/authContext';
+import React from 'react';
 
 export type AuthRoutes = {
   login: undefined;
