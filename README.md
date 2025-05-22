@@ -31,15 +31,18 @@ expo start
 
 Escaneie o QR code com o app Expo Go!
 
-🛠 Comandos Úteis
-Comando	Descrição
-expo start	Inicia o servidor de desenvolvimento
-expo run:android	Executa no emulador Android
-expo run:ios	Executa no simulador iOS (requer Xcode)
-expo start --web	Executa versão web
-🏗 Estrutura do Projeto
+```
 
-bash
+## 🛠 Comandos Úteis
+
+- expo start -	Inicia o servidor de desenvolvimento
+- expo run:android	- Executa no emulador Android
+- expo run:ios	- Executa no simulador iOS (requer Xcode)
+- expo start - web	Executa versão web
+
+## 🏗 Estrutura do Projeto
+
+```bash 
 .
 ├── app/
 │   ├── (auth)/          # Telas de login/redefinição
@@ -50,6 +53,8 @@ bash
 ├── styles/             # Temas globais
 └── app.json            # Configuração Expo
 
+```
 
-📚 Tecnologias
+## 📚 Tecnologias
+
 <div style="display: flex; gap: 10px; flex-wrap: wrap;"> <img src="https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB" alt="React Native"> <img src="https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white" alt="Expo"> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/React_Navigation-6B52AE?logo=react&logoColor=white" alt="React Navigation"> </div>
