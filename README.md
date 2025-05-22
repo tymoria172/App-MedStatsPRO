@@ -25,6 +25,9 @@ cd app-mobsolutions
 
 # 2. Instale as dependências
 yarn install
+npm install
+npm install expo
+yarn add expo
 
 # 3. Inicie o projeto
 expo start
