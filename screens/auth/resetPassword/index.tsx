@@ -129,9 +129,9 @@ export default function ResetPassword() {
               Clique abaixo para fazer o login
             </Text>
 
-          
+
             <TouchableOpacity
-              style={[styles.button, { marginTop: 32, paddingVertical: 14 }]}
+              style={[styles.buttonLogin, { marginTop: 32, paddingVertical: 14 }]}
               onPress={handleGoToLogin}
             >
               <Text style={[styles.buttonText, { fontSize: 16 }]}>Login</Text>

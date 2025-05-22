@@ -72,7 +72,19 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     alignItems: 'center',
     justifyContent: 'center',
+    
   },
+
+  buttonLogin: {
+    width: '80%',
+    backgroundColor: theme.colors.primary,
+    paddingVertical: 14,
+    borderRadius: 6,
+    alignItems: 'center',
+    justifyContent: 'center',
+    
+  },
+
   buttonDisabled: {
     backgroundColor: theme.colors.primaryLight,
   },
