@@ -30,7 +30,7 @@ npm install expo
 yarn add expo
 
 # 3. Inicie o projeto
-expo start
+npx expo start
 
 Escaneie o QR code com o app Expo Go!
 
